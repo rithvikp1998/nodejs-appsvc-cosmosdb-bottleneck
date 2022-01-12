@@ -140,6 +140,5 @@ stages:
             "value": "$(webAppName).azurewebsites.net"
             }
           ]
-          
     - publish: $(System.DefaultWorkingDirectory)/loadTest
       artifact: results
