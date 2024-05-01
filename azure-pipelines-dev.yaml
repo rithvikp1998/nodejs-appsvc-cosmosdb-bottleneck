@@ -26,6 +26,6 @@ steps:
 - task: AzureLoadTestDev@1
   inputs:
     azureSubscription: 'rpatibandla-test-service-conn'
-    loadTestConfigFile: 'test/SampleApp.yaml'
+    loadTestConfigFile: 'test/Sample.yaml'
     resourceGroup: 'rpatibandla-test-eus'
     loadTestResource: 'rpatibandla-test-eus'
