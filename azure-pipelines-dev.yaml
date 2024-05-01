@@ -21,9 +21,9 @@ variables:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '20'
+    versionSpec: '16'
   displayName: 'Install Node.js'
-- task: AzureLoadTest@1
+- task: b61b360c-31ac-4389-922b-303ea8befde7@1
   inputs:
     azureSubscription: 'rpatibandla-test-service-conn'
     loadTestConfigFile: 'test/SampleApp.yaml'
