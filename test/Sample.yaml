@@ -1,0 +1,11 @@
+displayName: Test_3/11/2024_4:17:31 PM
+testPlan: DummySampler.jmx
+description: 
+engineInstances: 1
+testId: b672c9dc-a8ec-4f8c-8d8b-0096a888adcd
+testType: JMX
+splitAllCSVs: False
+failureCriteria: []
+autoStop:
+  errorPercentage: 90
+  timeWindow: 60
