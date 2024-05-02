@@ -27,5 +27,5 @@ steps:
   inputs:
     azureSubscription: 'rpatibandla-test-service-conn'
     loadTestConfigFile: 'test/Sample.yaml'
-    resourceGroup: 'rpatibandla-test-eus'
+    resourceGroup: 'rpatibandla-testruns'
     loadTestResource: 'rpatibandla-test-eus'
