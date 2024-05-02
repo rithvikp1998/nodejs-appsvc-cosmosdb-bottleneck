@@ -25,7 +25,7 @@ steps:
   displayName: 'Install Node.js'
 - task: AzureLoadTest@1
   inputs:
-    azureSubscription: 'rpatibandla-test-service-conn'
+    azureSubscription: 'rpatibandla-test-service-conn-mi'
     loadTestConfigFile: 'test/Sample.yaml'
     resourceGroup: 'rpatibandla-testruns'
     loadTestResource: 'rpatibandla-test-eus'
