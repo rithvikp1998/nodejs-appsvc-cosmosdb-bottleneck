@@ -20,6 +20,8 @@ variables:
 steps:
 - task: UseNode@1
   displayName: 'Install Node.js'
+  inputs:
+    versionSpec: '20.x'
 - task: AzureLoadTest@1
   inputs:
     azureSubscription: 'rpatibandla-test-service-conn-mi'
