@@ -20,7 +20,7 @@ variables:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '16'
+    versionSpec: '20'
   displayName: 'Install Node.js'
 - task: AzureLoadTest@1
   inputs:
