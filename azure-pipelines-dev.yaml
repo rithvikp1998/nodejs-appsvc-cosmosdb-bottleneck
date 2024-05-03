@@ -22,7 +22,7 @@ steps:
   displayName: 'Install Node.js'
   inputs:
     versionSpec: '20.x'
-- task: AzureLoadTest@1.2.69
+- task: AzureLoadTest@1
   inputs:
     azureSubscription: 'rpatibandla-test-service-conn-mi'
     loadTestConfigFile: 'test/Sample.yaml'
