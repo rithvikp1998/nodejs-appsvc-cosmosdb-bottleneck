@@ -18,10 +18,10 @@ variables:
 
 
 steps:
-- task: UseNode@1
-  displayName: 'Install Node.js'
+- task: NodeTool@0
   inputs:
-    versionSpec: '18'
+    versionSpec: "18.x"
+  displayName: "Install Node.js"
 - task: AzureLoadTest@1
   inputs:
     azureSubscription: 'rpatibandla-test-service-conn-mi'
