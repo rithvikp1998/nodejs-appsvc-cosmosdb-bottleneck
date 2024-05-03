@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: ado-custom-pool
+pool:
+  vmImage: ubuntu-latest
 
 variables:
   webAppName: 'test'
