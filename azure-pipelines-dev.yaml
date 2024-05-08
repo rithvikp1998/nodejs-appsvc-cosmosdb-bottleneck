@@ -6,9 +6,9 @@
 trigger:
 - main
 
-# pool:
-#   vmImage: 'ubuntu-latest'
-pool: ado-custom-pool
+pool:
+  vmImage: 'ubuntu-latest'
+# pool: ado-custom-pool
 
 variables:
   webAppName: 'test'
@@ -26,7 +26,7 @@ steps:
   displayName: 'Install Node.js'
 - task: AzureLoadTest@1
   inputs:
-    azureSubscription: 'rpatibandla-test-service-conn-mi'
+    azureSubscription: 'rpatibandla-test-service-conn-spn'
     loadTestConfigFile: 'test/Sample.yaml'
     resourceGroup: 'rpatibandla-testruns'
     loadTestResource: 'rpatibandla-test-eus'
